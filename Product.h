@@ -16,7 +16,7 @@ public:
     Product(string n, double p);
 
     string getName() const;
-    double getPrice() const;
+    virtual double getPrice() const;
 
     virtual void showInfo() const;
 
